@@ -81,6 +81,26 @@ input[type="reset"] {
   margin-right: .3em;
 }
 
+.redes-bar {
+  display:grid;
+  position: fixed;
+  background-color: RGBA(0,159,217,0.18);
+  width:70px;
+  bottom: 0px;
+  left:2px;
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.redes li {
+  display: flex;
+  justify-content: center;
+}
+.redes i {
+  color: white;
+}
+
 @media screen and (max-width: 400px) {
   body {background-color: rgb(142, 22, 190);}
 
