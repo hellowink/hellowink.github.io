@@ -93,6 +93,10 @@ input[type="reset"] {
   padding: 5px;
 }
 
+.redes ul {
+  justify-content: center;
+}
+
 .redes li {
   display: flex;
   justify-content: center;
