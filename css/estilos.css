@@ -81,7 +81,7 @@ input[type="reset"] {
   margin-right: .3em;
 }
 
-.redes-bar {
+.barra {
   display:grid;
   position: fixed;
   background-color: RGBA(0,159,217,0.18);
