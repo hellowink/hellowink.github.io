@@ -21,6 +21,10 @@ body {
   color: rgb(255, 228, 72);
 }
 
+.navbar-toggler-icon {
+  color: rgb(255, 228, 72);
+}
+
 .pastillas {
   display: flex;
   margin: auto;
