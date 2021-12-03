@@ -4,7 +4,7 @@ $enviaPara = 'sofia.vega@davinci.edu.ar';
 
 $subject = 'Contacto desde la web';
 
-$enviado = './index.html';
+$enviado = 'https://cranky-mclean-8d6365.netlify.app/';
 
 $mensaje = '';
 $primero = true;
