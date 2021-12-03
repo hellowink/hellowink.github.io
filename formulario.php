@@ -4,7 +4,7 @@ $enviaPara = 'sofia.vega@davinci.edu.ar';
 
 $subject = 'Contacto desde la web';
 
-$enviado = "<main>index.html";
+$enviado = "main/index.html";
 
 $mensaje = '';
 $primero = true;
