@@ -128,6 +128,8 @@ input[type="reset"] {
   #categorias img {width: 15em;}
 
   #formulario form{width: 20em;}
+
+  footer #texto {font-size: 0.8rem;}
 }
 
 @media screen and (min-width: 400px) {
@@ -136,6 +138,8 @@ input[type="reset"] {
     .logo {width: 4rem;}
 
     #categorias img{width: 20em;}
+
+    footer #texto {font-size: 0.9rem;}
   }
   
   @media screen and (min-width: 600px) {
@@ -144,6 +148,8 @@ input[type="reset"] {
     .logo {width: 4rem;}
 
     #formulario form{width: 30em;}
+ 
+    footer #texto {font-size: 0.9rem;}
   }
   
   @media screen and (min-width: 768px) {
@@ -154,6 +160,8 @@ input[type="reset"] {
     #categorias img {width: 15em;}
 
     #formulario form{width: 40em;}
+
+    footer #texto {font-size: 0.9rem;}
   } 
   
   @media screen and (min-width: 992px) {
@@ -162,6 +170,8 @@ input[type="reset"] {
     #categorias img {width: 20em;}
 
     #formulario form{width: 40em;}
+
+    footer #texto {font-size: 1rem;}
   } 
 
   @media screen and (min-width: 1200px) {
@@ -170,4 +180,6 @@ input[type="reset"] {
     #categorias img {width: 20em;}
 
     #formulario form{width: 50em;}
+
+    footer #texto {font-size: 1rem;}
   }
