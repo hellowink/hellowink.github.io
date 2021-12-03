@@ -28,7 +28,7 @@ body {
 #formulario form {
   padding: 20px;
   margin: auto;
-  background-color: beige;
+  background-color: rgb(255, 255, 184);
 }
 
 .control {
@@ -54,7 +54,7 @@ body {
 
 .control > div {
   background: white;
-  border: 1px solid #aaa;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .control div div {
@@ -69,7 +69,7 @@ form > div:last-child {
 
 input[type="submit"] {
   padding: .6em 1.3em;
-  background-color: orangered;
+  background-color: rgb(28, 70, 255);
   color: white;
   border: 1px solid #aaa;
 }
