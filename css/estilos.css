@@ -17,6 +17,24 @@ body {
   color: white;
 }
 
+.nav-link {
+  color: white;
+}
+
+.pastillas {
+  display: flex;
+  margin: auto;
+}
+
+.texto-pastilla {
+  display: flex;
+  align-content: center;
+}
+
+.texto-pastilla p {
+  margin: auto;
+}
+
 #club {
   background-color: whitesmoke;
 }
@@ -141,7 +159,7 @@ input[type="reset"] {
 
   .logo {width: 4rem;}
 
-  #categorias img {width: 15em;}
+  #categorias img {width: 15em; margin: auto;}
 
   #formulario form{width: 20em;}
 
