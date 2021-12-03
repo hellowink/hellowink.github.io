@@ -81,36 +81,39 @@ input[type="reset"] {
   margin-right: .3em;
 }
 
+#escudos {
+  width: 500px 
+}
+
 #animacion {
   width: 100%;
-
   background: url("../imagenes/escudo\ 1.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
-  animation: escudos 10s linear infinite;
+  animation: escudos 20s linear infinite;
 }
 
 @keyframes escudos {
   0% {
-  background: url("../imagenes/escudo2.png") no-repeat 0 0;
+  background: url("../imagenes/escudo\ 1.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
 
   40% {
-  background: url("../img/me_elements_color_1.svg") no-repeat 0 0;
+  background: url("../imagenes/escudo2.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
 
   60% {
-  background: url("../img/me_elements_color_3.svg") no-repeat 0 0;
+  background: url("../imagenes/escudo3.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
 
   80% {
-  background: url("../img/me_elements_color_5.svg") no-repeat 0 0;
+  background: url("../imagenes/escudo4.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
