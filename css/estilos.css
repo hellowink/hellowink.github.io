@@ -81,56 +81,40 @@ input[type="reset"] {
   margin-right: .3em;
 }
 
-#side-item-element {
+#animacion {
   width: 100%;
-  height: 100%;
+
   background: url("../imagenes/escudo\ 1.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
-  animation: me_elements 10s linear infinite;
+  animation: escudos 10s linear infinite;
 }
 
-@keyframes me_elements {
+@keyframes escudos {
   0% {
   background: url("../imagenes/escudo2.png") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
-  30% {
-  background: url("../imagenes/escudo3.png") no-repeat 0 0;
-  background-size: 50%;
-  background-position: center;
-  }
+
   40% {
   background: url("../img/me_elements_color_1.svg") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
-  50% {
-  background: url("../img/me_elements_color_2.svg") no-repeat 0 0;
-  background-size: 50%;
-  background-position: center;
-  }
+
   60% {
   background: url("../img/me_elements_color_3.svg") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
-  70% {
-  background: url("../img/me_elements_color_4.svg") no-repeat 0 0;
-  background-size: 50%;
-  background-position: center;
-  }
+
   80% {
   background: url("../img/me_elements_color_5.svg") no-repeat 0 0;
   background-size: 50%;
   background-position: center;
   }
-  90% {
-  background: url("../img/me_elements_color_full.svg") no-repeat 0 0;
-  background-size: 50%;
-  background-position: center;
-  }
+
 }
 
 @media screen and (max-width: 400px) {
