@@ -125,6 +125,8 @@ input[type="reset"] {
 
   .logo {width: 4rem;}
 
+  #categorias img {width: 15em;}
+
   #formulario form{width: 20em;}
 }
 
@@ -149,17 +151,23 @@ input[type="reset"] {
 
     .logo {width: 5rem;}
 
+    #categorias img {width: 15em;}
+
     #formulario form{width: 40em;}
   } 
   
   @media screen and (min-width: 992px) {
     body {background: orange;}
 
+    #categorias img {width: 20em;}
+
     #formulario form{width: 40em;}
   } 
 
   @media screen and (min-width: 1200px) {
     body {background-color: pink;}
+
+    #categorias img {width: 20em;}
 
     #formulario form{width: 50em;}
   }
