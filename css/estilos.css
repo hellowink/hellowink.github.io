@@ -18,7 +18,7 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color: rgb(255, 228, 72);
 }
 
 .pastillas {
@@ -32,6 +32,10 @@ body {
 }
 
 .texto-pastilla p {
+  margin: auto;
+}
+
+.texto-pastilla a {
   margin: auto;
 }
 
