@@ -1,7 +1,7 @@
 body {
   color: rgb(0, 0, 0);
     background-color: #001B63;
-    font-family: "NexaLight",
+    font-family: "NexaBold, NexaLight";
 }
 
 @font-face {
@@ -13,11 +13,23 @@ body {
 }
 
 .navbar {
-  background-color: rgb(207, 207, 209);
+  background-color: #001B63);
 }
 
-.container {
-    background-color: rgb(207, 207, 209);
+#club {
+  background-color: whitesmoke;
+}
+
+#categorias {
+  background-color: whitesmoke;
+}
+
+#multimedia {
+  background-color: whitesmoke;
+}
+
+#formulario {
+  background-color: whitesmoke;
 }
 
 #redes {
@@ -121,7 +133,6 @@ input[type="reset"] {
 }
 
 @media screen and (max-width: 400px) {
-  body {background-color: rgb(142, 22, 190);}
 
   .logo {width: 4rem;}
 
@@ -133,7 +144,6 @@ input[type="reset"] {
 }
 
 @media screen and (min-width: 400px) {
-    body {background-color: red;}
 
     .logo {width: 4rem;}
 
@@ -143,7 +153,6 @@ input[type="reset"] {
   }
   
   @media screen and (min-width: 600px) {
-    body {background: green;}
 
     .logo {width: 4rem;}
 
@@ -153,7 +162,6 @@ input[type="reset"] {
   }
   
   @media screen and (min-width: 768px) {
-    body {background: gray;}
 
     .logo {width: 5rem;}
 
@@ -165,7 +173,6 @@ input[type="reset"] {
   } 
   
   @media screen and (min-width: 992px) {
-    body {background: orange;}
 
     #categorias img {width: 20em;}
 
@@ -175,7 +182,6 @@ input[type="reset"] {
   } 
 
   @media screen and (min-width: 1200px) {
-    body {background-color: pink;}
 
     #categorias img {width: 20em;}
 
