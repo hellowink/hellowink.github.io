@@ -14,6 +14,7 @@ body {
 
 .navbar {
   background-color: #001B63;
+  color: white;
 }
 
 #club {
@@ -41,6 +42,10 @@ body {
   padding: 20px;
   margin: auto;
   background-color: rgb(255, 255, 184);
+}
+
+footer {
+  color: white;
 }
 
 .control {
